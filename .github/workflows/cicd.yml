@@ -73,7 +73,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Update Helm chart values
+    - name: Update Helm chart values[skip ci]
       run: |
         sed -i "s/tag: .*/tag: \"${{github.run_id}}\"/" helm/go-web-app-chart/values.yaml
 
