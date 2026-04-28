@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: arnav234/go-web-app
   tag: "latest"
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   
 ingress:
   enabled: false
