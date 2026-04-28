@@ -60,7 +60,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v6
       with:
-        context: ./Dockerfile
+        context: .
         push: true
         tags: arnav234/go-web-app:${{ github.run_id }}
 
