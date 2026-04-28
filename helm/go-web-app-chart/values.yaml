@@ -1,5 +1,5 @@
 replicaCount: 1
 image:
   repository: arnav234/go-web-app
-  tag: "25045086050"
+  tag: "25045437801"
   pullPolicy: IfNotPresent
