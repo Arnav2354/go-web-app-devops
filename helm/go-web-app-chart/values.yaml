@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: arnav234/go-web-app
-  tag: "25048890599"
+  tag: "25094312681"
   pullPolicy: Always
   
 ingress:
