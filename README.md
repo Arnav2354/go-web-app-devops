@@ -14,7 +14,7 @@ vim README.md![Helm](https://img.shields.io/badge/Helm-Charts-0F1689?style=for-t
 ## 📸 Project Screenshots
 
 ### ✅ GitHub Actions CI/CD Pipeline — Successful Run
-![GitHub Actions Pipeline](static/images/screenshots/pipeline.png)
+![GitHub Actions Pipeline](static/images/screenshots/Pipeline.png)
 
 > Pipeline completes in **1m 23s** with 4 stages: `build` → `push` → `update-helm-chart` + `code-quality`
 
@@ -30,7 +30,7 @@ go-web-app-95d7b85b-jfzsg     1/1     Running   0          173m
 ```
 
 ### 🌐 Live Application
-![App Running](static/images/screenshots/app.png)
+![App Running](static/images/screenshots/App.png)
 > Go web application serving DevOps learning content — accessible via Kubernetes Ingress at `go-web-app.local`
 
 ---
